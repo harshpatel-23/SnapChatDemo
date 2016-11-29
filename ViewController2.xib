@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9532" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ViewController2" customModule="SnapChatDemo" customModuleProvider="target">
+            <connections>
+                <outlet property="cameraView" destination="j1N-bV-FZQ" id="1Wu-91-JEj"/>
+                <outlet property="tempImageView" destination="KG8-UU-Rg1" id="dDc-Y4-2bJ"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="j1N-bV-FZQ">
+                    <rect key="frame" x="-5" y="0.0" width="605" height="600"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="KG8-UU-Rg1">
+                            <rect key="frame" x="0.0" y="0.0" width="605" height="600"/>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="0.40000000600000002" green="0.80000001190000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="j1N-bV-FZQ" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="2rZ-w2-Bbq"/>
+                <constraint firstItem="KG8-UU-Rg1" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="6y7-TZ-ljY"/>
+                <constraint firstAttribute="trailing" secondItem="KG8-UU-Rg1" secondAttribute="trailing" id="8x6-Et-EY3"/>
+                <constraint firstItem="KG8-UU-Rg1" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="93W-mX-e88"/>
+                <constraint firstAttribute="bottom" secondItem="j1N-bV-FZQ" secondAttribute="bottom" id="98i-Qm-cev"/>
+                <constraint firstItem="j1N-bV-FZQ" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="DAR-Ew-58z"/>
+                <constraint firstItem="KG8-UU-Rg1" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="-5" id="GCu-TI-1Zz"/>
+                <constraint firstItem="KG8-UU-Rg1" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="Hz8-DW-pd5"/>
+                <constraint firstItem="j1N-bV-FZQ" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="igk-Ab-57X"/>
+                <constraint firstAttribute="trailing" secondItem="j1N-bV-FZQ" secondAttribute="trailing" id="oc4-TX-JY1"/>
+                <constraint firstItem="j1N-bV-FZQ" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="-5" id="qj4-U0-dcV"/>
+                <constraint firstAttribute="bottom" secondItem="KG8-UU-Rg1" secondAttribute="bottom" id="qwN-E3-HtA"/>
+            </constraints>
+        </view>
+    </objects>
+</document>
